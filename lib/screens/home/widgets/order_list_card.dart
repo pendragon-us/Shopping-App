@@ -42,7 +42,8 @@ class OrderListCard extends StatelessWidget {
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 15,
-                    fontWeight: FontWeight.bold
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Poppins'
                 ),
               ),
               //rate and count
@@ -55,7 +56,8 @@ class OrderListCard extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.black38,
                         fontSize: 10,
-                        fontWeight: FontWeight.bold
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'Poppins'
                     ),
                   ),
 
@@ -67,7 +69,8 @@ class OrderListCard extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.black38,
                         fontSize: 10,
-                        fontWeight: FontWeight.bold
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'Poppins'
                     ),
                   )
                 ],
@@ -76,13 +79,14 @@ class OrderListCard extends StatelessWidget {
           ),
           //description
           Text(
-            (order['description'].split(' ').length > 3
-                ? order['description'].split(' ').take(3).join(' ') + '...'
+            (order['description'].split(' ').length > 2
+                ? order['description'].split(' ').take(2).join(' ') + '...'
                 : order['description']),
             style: TextStyle(
                 color: Colors.black87,
                 fontSize: 13,
-                fontWeight: FontWeight.bold
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Poppins'
             ),
           ),
           //complete card
@@ -97,7 +101,8 @@ class OrderListCard extends StatelessWidget {
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 10,
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Poppins'
               ),
             ),
           )
