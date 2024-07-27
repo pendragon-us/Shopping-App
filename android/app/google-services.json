@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83779316479",
+    "project_id": "shoppingapp-f05b9",
+    "storage_bucket": "shoppingapp-f05b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83779316479:android:a8a4cb40df44332c427aca",
+        "android_client_info": {
+          "package_name": "com.pendragon.us.shoppingpos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW5Wr0EuZFAeaDQpc_r-qZrfl8iWE_4lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
